@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComexCont - Contabilidade para E-commerce e Expansão Global</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #003580;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #004aad;
+            color: white;
+            margin-top: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #003580;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #ffcc00;
+            color: #003580;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ComexCont</h1>
+        <p>Especialistas em Contabilidade para E-commerce e Expansão Global</p>
+    </header>
+    
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    
+    <section class="hero">
+        <h2>Impulsione Seu Negócio Digital com Contabilidade Especializada</h2>
+        <p>Gestão Financeira e Tributária para e-commerce, marketplaces e expansão global.</p>
+        <a href="#contato" class="cta-button">Fale Conosco</a>
+    </section>
+    
+    <div class="container" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos um escritório de contabilidade especializado em negócios digitais e expansão global. Ajudamos empresas a crescerem com segurança fiscal e planejamento estratégico.</p>
+    </div>
+    
+    <div class="container" id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Contabilidade para E-commerce</li>
+            <li>Planejamento Tributário</li>
+            <li>Gestão Financeira e BPO</li>
+            <li>Expansão Global para Marketplaces</li>
+            <li>Consultoria Fiscal para Negócios Digitais</li>
+            <li>Regularização Tributária para Vendas Internacionais</li>
+        </ul>
+    </div>
+    
+    <div class="container" id="blog">
+        <h2>Blog</h2>
+        <p>Confira nossos artigos sobre contabilidade, finanças e crescimento para e-commerce.</p>
+        <ul>
+            <li><a href="#">Como pagar menos impostos no e-commerce?</a></li>
+            <li><a href="#">Expansão Global: Passos para Vender Internacionalmente</a></li>
+            <li><a href="#">O impacto do planejamento tributário no lucro do seu negócio</a></li>
+        </ul>
+    </div>
+    
+    <div class="container" id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@comexcont.com</p>
+        <p>WhatsApp: (XX) XXXXX-XXXX</p>
+        <p>Endereço: Rua Exemplo, 123, São Paulo - SP</p>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 ComexCont. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
